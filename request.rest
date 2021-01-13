@@ -1,0 +1,21 @@
+
+### get all 
+GET http://localhost:3000/users/
+
+
+###  get by id
+GET http://localhost:3000/users/5ffefbb17240f40e8fad2ddb HTTP/1.1
+
+
+###  post new
+POST http://localhost:3000/users/
+Content-Type: application/json
+
+{
+    "name":"Admin",
+    "password":"password",
+    "email":"cabbagesoft@zoho.com"
+}
+
+###  delete by id
+DELETE http://localhost:3000/api/users/5ffef8c27240f40e8fad2dda HTTP/1.1
